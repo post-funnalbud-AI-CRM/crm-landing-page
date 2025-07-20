@@ -1,0 +1,302 @@
+{
+  "nav": {
+    "brand": "CRM AI",
+    "features": "Funktioner",
+    "pricing": "Prissättning",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "getStarted": "Kom igång",
+    "signIn": "Logga in"
+  },
+  "hero": {
+    "title": "AI-driven CRM-revolution",
+    "subtitle": "Tidig åtkomst tillgänglig",
+    "description": "Förvandla dina kundrelationer med intelligent automatisering, prediktiv analys och sömlös arbetsflödeshantering.",
+    "emailPlaceholder": "ange@email.com",
+    "getStarted": "Kom igång",
+    "watchDemo": "Se demo",
+    "learnMore": "Läs mer"
+  },
+  "quotes": {
+    "title": "Betrodd av branschledare",
+    "quotes": [
+      {
+        "text": "AI-driven CRM har revolutionerat hur vi förstår våra kunder. Insikterna är otroliga.",
+        "author": "Sarah Chen",
+        "title": "VD, TechFlow Inc.",
+        "company": "Fortune 500"
+      },
+      {
+        "text": "Automatiseringen sparar oss 20+ timmar per vecka. Vårt team kan fokusera på det som verkligen spelar roll.",
+        "author": "Marcus Rodriguez",
+        "title": "Försäljningschef",
+        "company": "GrowthLab"
+      },
+      {
+        "text": "Realtidsanalys hjälpte oss att öka konverteringsgraden med 150% på bara 3 månader.",
+        "author": "Emily Watson",
+        "title": "Marknadsföringschef",
+        "company": "InnovateCorp"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Förvandla ditt företag idag",
+    "description": "Se den mätbara påverkan som CRM AI kan ha på ditt företags prestanda och tillväxt.",
+    "revenue": {
+      "title": "Öka intäkterna med 40%",
+      "description": "Våra AI-algoritmer identifierar högt värderade prospects och optimerar din försäljningstratt för maximala konverteringsgrader.",
+      "stats": "40% genomsnittlig intäktsökning"
+    },
+    "time": {
+      "title": "Spara 25+ timmar per vecka",
+      "description": "Automatisera repetitiva uppgifter, effektivisera arbetsflöden och låt ditt team fokusera på att bygga relationer.",
+      "stats": "25+ timmar sparade veckovis"
+    },
+    "productivity": {
+      "title": "Förbättra teamproduktivitet",
+      "description": "Centraliserad kommunikation, uppgiftshantering och prestationsspårning ökar teameffektiviteten.",
+      "stats": "300% produktivitetsökning"
+    },
+    "security": {
+      "title": "Säkerhet i företagsklass",
+      "description": "Kryptering på banknivå, SOC 2-efterlevnad och avancerade säkerhetsprotokoll skyddar dina data.",
+      "stats": "99,9% drifttidsgaranti"
+    },
+    "learnMore": "Läs mer"
+  },
+  "features": {
+    "title": "Kraftfulla funktioner för moderna företag",
+    "description": "Allt du behöver för att förvandla kundrelationer, öka försäljningen och skala ditt företag med intelligent automatisering.",
+    "cta": "Utforska alla funktioner",
+    "features": [
+      {
+        "title": "AI-drivna insikter",
+        "description": "Avancerade maskininlärningsalgoritmer analyserar kundbeteendemönster för att ge handlingsbara insikter och förutsägelser."
+      },
+      {
+        "title": "Kund 360° vy",
+        "description": "Kompletta kundprofiler med interaktionshistorik, preferenser och prediktiv analys i en enhetlig instrumentpanel."
+      },
+      {
+        "title": "Försäljningsprognoser",
+        "description": "Noggranna intäktsförutsägelser och försäljningspipelineanalys driven av historiska data och marknadstrender."
+      },
+      {
+        "title": "Företagssäkerhet",
+        "description": "Kryptering på banknivå, SOC 2-efterlevnad och avancerade säkerhetsprotokoll för att skydda dina känsliga data."
+      },
+      {
+        "title": "Arbetsflödesautomatisering",
+        "description": "Automatisera repetitiva uppgifter, e-postsekvenser och uppföljningar för att öka produktiviteten med upp till 300%."
+      },
+      {
+        "title": "Omnikanalkommunikation",
+        "description": "Centraliserad kommunikationshubb som stöder e-post, SMS, sociala medier och livechatt på en plattform."
+      },
+      {
+        "title": "Realtidsanalys",
+        "description": "Live-instrumentpaneler med anpassningsbara KPI:er, konverteringsspårning och prestationsmätvärden som uppdateras omedelbart."
+      },
+      {
+        "title": "Smart schemaläggning",
+        "description": "AI-optimerad mötesschemaläggning, uppgiftsprioritering och resursallokering för maximal effektivitet."
+      },
+      {
+        "title": "Global skalbarhet",
+        "description": "Flerspråksstöd, valutakonvertering och regionspecifik efterlevnad för världsomspännande verksamhet."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Älskad av tusentals företag",
+    "description": "Gå med över 10 000+ företag som litar på CRM AI för att hantera sina kundrelationer och driva tillväxt.",
+    "testimonials": [
+      {
+        "name": "Alex Thompson",
+        "title": "VP Försäljning",
+        "company": "TechCorp",
+        "text": "CRM AI förvandlade vår försäljningsprocess helt. Vi har sett en 40% ökning av konverteringar och vårt team är mer produktivt än någonsin."
+      },
+      {
+        "name": "Sarah Kim",
+        "title": "Marknadsföringschef",
+        "company": "GrowthLab", 
+        "text": "AI-insikterna är otroliga. Vi förutsäger nu kundbeteende med 90% noggrannhet och personaliserar varje interaktion perfekt."
+      },
+      {
+        "name": "Marcus Rodriguez",
+        "title": "VD",
+        "company": "InnovatePlus",
+        "text": "Implementeringen var sömlös och ROI var omedelbar. Våra kundnöjdhetspoäng förbättrades med 35% på bara två månader."
+      },
+      {
+        "name": "Emma Chen",
+        "title": "Driftschef",
+        "company": "ScaleUp Inc",
+        "text": "Automatiseringsfunktionerna sparar oss 25+ timmar per vecka. Vi kan fokusera på strategi istället för manuell datainmatning och uppföljning."
+      },
+      {
+        "name": "David Wilson",
+        "title": "Försäljningschef",
+        "company": "ProSolutions",
+        "text": "Kundsupport är enastående och plattformen är otroligt intuitiv. Hela vårt team var igång inom en vecka."
+      },
+      {
+        "name": "Lisa Park",
+        "title": "Intäktsoperationer",
+        "company": "DataDriven Co",
+        "text": "Analysinstrumentpanelen ger oss insikter vi aldrig hade tidigare. Vi kan fatta datadrivna beslut i realtid nu."
+      }
+    ],
+    "stats": {
+      "users": "10 000+",
+      "usersLabel": "Aktiva användare",
+      "satisfaction": "98%",
+      "satisfactionLabel": "Kundnöjdhet",
+      "roi": "150%",
+      "roiLabel": "Genomsnittlig ROI",
+      "support": "24/7",
+      "supportLabel": "Support tillgänglig"
+    }
+  },
+  "pricing": {
+    "title": "Enkel, transparent prissättning",
+    "description": "Välj den perfekta planen för ditt företag. Alla planer inkluderar våra grundläggande CRM-funktioner utan dolda avgifter.",
+    "monthly": "Månadsvis",
+    "annually": "Årligen",
+    "save": "Spara 20%",
+    "getStarted": "Kom igång",
+    "startFreeTrial": "Starta gratis provperiod",
+    "contactSales": "Kontakta försäljning",
+    "popular": "Mest populär",
+    "everythingIncluded": "Allt inkluderat:",
+    "freeTrial": "Alla planer inkluderar en 14-dagars gratis provperiod. Inget kreditkort krävs.",
+    "guarantees": [
+      "Avbryt när som helst",
+      "24/7 support",
+      "Pengarna-tillbaka-garanti"
+    ],
+    "plans": [
+      {
+        "name": "Nybörjare",
+        "price": "$29",
+        "period": "per månad",
+        "description": "Perfekt för små team som kommer igång med CRM",
+        "features": [
+          "Upp till 1 000 kontakter",
+          "Grundläggande e-postautomatisering",
+          "Standardrapportering",
+          "24/7 e-postsupport",
+          "Mobilappsåtkomst",
+          "Grundläggande integrationer (5)",
+          "1 användarkonto"
+        ]
+      },
+      {
+        "name": "Professionell",
+        "price": "$79",
+        "period": "per månad",
+        "description": "Mest populära valet för växande företag",
+        "features": [
+          "Upp till 10 000 kontakter",
+          "Avancerad AI-automatisering",
+          "Realtidsanalys",
+          "Prioriterat telefonsupport",
+          "Anpassade arbetsflöden",
+          "Avancerade integrationer (25)",
+          "Upp till 5 användarkonton",
+          "Lead-poängsättning",
+          "A/B-testning"
+        ]
+      },
+      {
+        "name": "Företag",
+        "price": "$199",
+        "period": "per månad",
+        "description": "Avancerade funktioner för stora organisationer",
+        "features": [
+          "Obegränsade kontakter",
+          "Fullständig AI-svit",
+          "Anpassad rapportering",
+          "Dedikerad framgångsansvarig",
+          "White-label-alternativ",
+          "Obegränsade integrationer",
+          "Obegränsade användare",
+          "Avancerad säkerhet (SSO)",
+          "API-åtkomst",
+          "Anpassad utbildning"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "description": "Förvandla dina kundrelationer med intelligent automatisering, prediktiv analys och sömlös arbetsflödeshantering.",
+    "stayUpdated": "Håll dig uppdaterad",
+    "newsletterDescription": "Få de senaste uppdateringarna, tipsen och insikterna levererade till din inkorg.",
+    "subscribe": "Prenumerera",
+    "emailPlaceholder": "Ange din e-post",
+    "contact": {
+      "email": "hello@crmai.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "Sverige, Stockholm"
+    },
+    "links": {
+      "product": {
+        "title": "Produkt",
+        "items": [
+          "Funktioner",
+          "Prissättning",
+          "API-dokumentation",
+          "Integrationer",
+          "Ändringslogg"
+        ]
+      },
+      "company": {
+        "title": "Företag",
+        "items": [
+          "Om oss",
+          "Karriärer",
+          "Press",
+          "Partner",
+          "Kontakt"
+        ]
+      },
+      "resources": {
+        "title": "Resurser",
+        "items": [
+          "Blogg",
+          "Hjälpcentral",
+          "Community",
+          "Fallstudier",
+          "Webbinarier"
+        ]
+      },
+      "legal": {
+        "title": "Juridisk",
+        "items": [
+          "Integritetspolicy",
+          "Användarvillkor",
+          "Cookie-policy",
+          "GDPR",
+          "Säkerhet"
+        ]
+      }
+    },
+    "copyright": "© 2025 CRM AI. Alla rättigheter förbehållna."
+  },
+  "common": {
+    "loading": "Laddar...",
+    "error": "Fel",
+    "success": "Framgång",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "save": "Spara",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "close": "Stäng",
+    "next": "Nästa",
+    "previous": "Föregående",
+    "submit": "Skicka"
+  }
+}

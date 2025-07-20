@@ -1,7 +1,9 @@
+import { notFound } from 'next/navigation'
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { Providers } from "@/components/providers";
+import { Locale } from '@/middleware'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,13 +20,22 @@ export const metadata: Metadata = {
   description: "Transform your customer relationships with intelligent automation, predictive analytics, and seamless workflow management.",
 };
 
-export default function RootLayout({
+const locales = ['en', 'sv']
+
+export default async function LocaleLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+  params
+}: {
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  
+  // Validate that the incoming `locale` parameter is valid
+  if (!locales.includes(locale as Locale)) notFound()
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

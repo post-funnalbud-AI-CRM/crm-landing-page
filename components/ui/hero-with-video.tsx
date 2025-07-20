@@ -4,6 +4,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
 import { Play, Pause, Mail, ArrowRight, Menu, Sun, Moon, Sparkles, Zap, Shield, BarChart3 } from 'lucide-react';
+import { Locale } from '@/middleware';
+import { LanguageSwitcher } from './language-switcher';
 
 interface NavbarHeroProps {
   brandName?: string;
@@ -13,6 +15,8 @@ interface NavbarHeroProps {
   backgroundImage?: string;
   videoUrl?: string;
   emailPlaceholder?: string;
+  dict: any;
+  locale: Locale;
 }
 
 const NavbarHero: React.FC<NavbarHeroProps> = ({
@@ -21,7 +25,9 @@ const NavbarHero: React.FC<NavbarHeroProps> = ({
   heroDescription = "Discover cutting-edge solutions designed for the modern digital landscape.",
   backgroundImage = "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
   videoUrl = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-  emailPlaceholder = "enter@email.com"
+  emailPlaceholder = "enter@email.com",
+  dict,
+  locale
 }) => {
   const [email, setEmail] = useState('');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -124,26 +130,27 @@ const NavbarHero: React.FC<NavbarHeroProps> = ({
                 </a>
                 <nav className="hidden lg:flex text-gray-600 dark:text-gray-300 font-medium transition-colors duration-300">
                   <ul className="flex items-center space-x-2">
-                                          <li><a href="#features" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Features</a></li>
-                      <li><a href="#benefits" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Benefits</a></li>
-                      <li><a href="#testimonials" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Reviews</a></li>
-                      <li><a href="#pricing" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Pricing</a></li>
+                    <li><a href="#features" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">{dict.nav.features}</a></li>
+                    <li><a href="#benefits" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Benefits</a></li>
+                    <li><a href="#testimonials" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">Reviews</a></li>
+                    <li><a href="#pricing" className="hover:text-black dark:hover:text-white px-4 py-2 text-sm transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">{dict.nav.pricing}</a></li>
                   </ul>
                 </nav>
               </div>
 
               <div className="flex items-center gap-3">
                 <div className="hidden lg:flex items-center gap-3">
-                  <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white cursor-pointer py-2 px-4 text-sm font-medium transition-all duration-300 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800">Login</a>
+                  <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white cursor-pointer py-2 px-4 text-sm font-medium transition-all duration-300 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800">{dict.nav.signIn}</a>
                   <a
                     href="http://crm.20api.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 py-3 px-6 text-sm rounded-xl font-medium transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105"
                   >
-                    Get Started<ArrowRight className="h-4 w-4" />
+                    {dict.nav.getStarted}<ArrowRight className="h-4 w-4" />
                   </a>
                 </div>
+                <LanguageSwitcher locale={locale} />
                 <ThemeToggleButton />
                 <div className="lg:hidden relative">
                   <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="backdrop-blur-md bg-white/80 dark:bg-black/80 hover:bg-white/90 dark:hover:bg-black/90 border border-gray-200 dark:border-gray-700 p-3 rounded-xl transition-all duration-300">
@@ -151,19 +158,19 @@ const NavbarHero: React.FC<NavbarHeroProps> = ({
                   </button>
                   {isMobileMenuOpen && (
                     <ul className="absolute top-full right-0 mt-2 p-2 backdrop-blur-md bg-white/90 dark:bg-black/90 border border-gray-200 dark:border-gray-700 rounded-xl w-56 z-30 animate-in slide-in-from-top-2 duration-200">
-                      <li><a href="#features" className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">Features</a></li>
+                      <li><a href="#features" className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">{dict.nav.features}</a></li>
                       <li><a href="#benefits" className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">Benefits</a></li>
                       <li><a href="#testimonials" className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">Reviews</a></li>
-                      <li><a href="#pricing" className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">Pricing</a></li>
+                      <li><a href="#pricing" className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">{dict.nav.pricing}</a></li>
                       <li className="border-t border-gray-200 dark:border-gray-700 mt-2 pt-2 space-y-2">
-                        <a href="#" className="block w-full text-center px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">Login</a>
+                        <a href="#" className="block w-full text-center px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">{dict.nav.signIn}</a>
                         <a
                           href="http://crm.20api.com/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="w-full bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 px-3 py-3 text-sm rounded-lg flex items-center justify-center gap-2 font-medium transition-all duration-300"
                         >
-                          Get Started<ArrowRight className="h-4 w-4" />
+                          {dict.nav.getStarted}<ArrowRight className="h-4 w-4" />
                         </a>
                       </li>
                     </ul>
@@ -203,27 +210,8 @@ const NavbarHero: React.FC<NavbarHeroProps> = ({
                   onClick={handleEmailSubmit} 
                   className="bg-black dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 px-8 py-4 text-base rounded-full font-medium transition-all duration-300 flex items-center gap-2 shadow-xl hover:shadow-2xl hover:scale-105"
                 >
-                  Join Now<ArrowRight className="h-5 w-5" />
+                  {dict.hero.getStarted}<ArrowRight className="h-5 w-5" />
                 </button>
-              </div>
-
-              {/* Feature highlights */}
-              <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 animate-in slide-in-from-bottom-10 duration-1000 delay-600">
-                <div className="backdrop-blur-md bg-white/50 dark:bg-black/50 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 hover:bg-white/70 dark:hover:bg-black/70 transition-all duration-300 group">
-                  <Zap className="w-8 h-8 text-gray-700 dark:text-gray-300 mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="text-black dark:text-white font-semibold mb-2 transition-colors duration-300">AI-Powered</h3>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm transition-colors duration-300">Advanced machine learning for smarter insights</p>
-                </div>
-                <div className="backdrop-blur-md bg-white/50 dark:bg-black/50 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 hover:bg-white/70 dark:hover:bg-black/70 transition-all duration-300 group">
-                  <Shield className="w-8 h-8 text-gray-700 dark:text-gray-300 mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="text-black dark:text-white font-semibold mb-2 transition-colors duration-300">Secure & Reliable</h3>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm transition-colors duration-300">Enterprise-grade security you can trust</p>
-                </div>
-                <div className="backdrop-blur-md bg-white/50 dark:bg-black/50 border border-gray-200 dark:border-gray-700 rounded-2xl p-6 hover:bg-white/70 dark:hover:bg-black/70 transition-all duration-300 group">
-                  <BarChart3 className="w-8 h-8 text-gray-700 dark:text-gray-300 mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
-                  <h3 className="text-black dark:text-white font-semibold mb-2 transition-colors duration-300">Real-time Analytics</h3>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm transition-colors duration-300">Live data insights for better decisions</p>
-                </div>
               </div>
             </div>
           </div>

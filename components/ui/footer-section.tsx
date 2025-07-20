@@ -14,37 +14,6 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-const footerLinks = {
-  product: [
-    { name: "Features", href: "#" },
-    { name: "Pricing", href: "#" },
-    { name: "API Documentation", href: "#" },
-    { name: "Integrations", href: "#" },
-    { name: "Changelog", href: "#" }
-  ],
-  company: [
-    { name: "About Us", href: "#" },
-    { name: "Careers", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-    { name: "Contact", href: "#" }
-  ],
-  resources: [
-    { name: "Blog", href: "#" },
-    { name: "Help Center", href: "#" },
-    { name: "Community", href: "#" },
-    { name: "Case Studies", href: "#" },
-    { name: "Webinars", href: "#" }
-  ],
-  legal: [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of Service", href: "#" },
-    { name: "Cookie Policy", href: "#" },
-    { name: "GDPR", href: "#" },
-    { name: "Security", href: "#" }
-  ]
-};
-
 const socialLinks = [
   { name: "Twitter", icon: Twitter, href: "#" },
   { name: "LinkedIn", icon: Linkedin, href: "#" },
@@ -52,7 +21,7 @@ const socialLinks = [
   { name: "YouTube", icon: Youtube, href: "#" }
 ];
 
-export function FooterSection() {
+export function FooterSection({ dict }: { dict: any }) {
   const [email, setEmail] = useState("");
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -78,22 +47,21 @@ export function FooterSection() {
                 <div className="flex items-center gap-2 mb-4">
                   <Sparkles className="w-8 h-8 text-gray-700 dark:text-gray-300" />
                   <span className="text-2xl font-bold text-black dark:text-white">
-                    CRM AI
+                    {dict.nav.brand}
                   </span>
                 </div>
                 <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed max-w-md">
-                  Transform your customer relationships with intelligent automation, 
-                  predictive analytics, and seamless workflow management.
+                  {dict.footer.description}
                 </p>
               </div>
 
               {/* Newsletter signup */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-black dark:text-white mb-4">
-                  Stay Updated
+                  {dict.footer.stayUpdated}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Get the latest updates, tips, and insights delivered to your inbox.
+                  {dict.footer.newsletterDescription}
                 </p>
                 <form onSubmit={handleNewsletterSubmit} className="flex gap-3">
                   <div className="flex-1 relative">
@@ -102,7 +70,7 @@ export function FooterSection() {
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Enter your email"
+                      placeholder={dict.footer.emailPlaceholder}
                       className="w-full pl-10 pr-4 py-3 bg-white dark:bg-black border border-gray-300 dark:border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-300"
                       required
                     />
@@ -113,7 +81,7 @@ export function FooterSection() {
                     whileTap={{ scale: 0.95 }}
                     className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-xl font-medium hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-300 flex items-center gap-2"
                   >
-                    Subscribe
+                    {dict.footer.subscribe}
                     <ArrowRight className="w-4 h-4" />
                   </motion.button>
                 </form>
@@ -123,20 +91,19 @@ export function FooterSection() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <Mail className="w-5 h-5" />
-                  <span>hello@crmai.com</span>
+                  <span>{dict.footer.contact.email}</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <Phone className="w-5 h-5" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>{dict.footer.contact.phone}</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                   <MapPin className="w-5 h-5" />
-                  <span>Sweden, Stockholm</span>
+                  <span>{dict.footer.contact.address}</span>
                 </div>
               </div>
             </motion.div>
 
-            {/* Footer links */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -146,16 +113,16 @@ export function FooterSection() {
             >
               <div>
                 <h3 className="text-lg font-semibold text-black dark:text-white mb-4">
-                  Product
+                  {dict.footer.links.product.title}
                 </h3>
                 <ul className="space-y-3">
-                  {footerLinks.product.map((link, index) => (
+                  {dict.footer.links.product.items.map((linkName: string, index: number) => (
                     <li key={index}>
                       <a
-                        href={link.href}
+                        href="#"
                         className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-300"
                       >
-                        {link.name}
+                        {linkName}
                       </a>
                     </li>
                   ))}
@@ -164,16 +131,16 @@ export function FooterSection() {
 
               <div>
                 <h3 className="text-lg font-semibold text-black dark:text-white mb-4">
-                  Company
+                  {dict.footer.links.company.title}
                 </h3>
                 <ul className="space-y-3">
-                  {footerLinks.company.map((link, index) => (
+                  {dict.footer.links.company.items.map((linkName: string, index: number) => (
                     <li key={index}>
                       <a
-                        href={link.href}
+                        href="#"
                         className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-300"
                       >
-                        {link.name}
+                        {linkName}
                       </a>
                     </li>
                   ))}
@@ -182,16 +149,16 @@ export function FooterSection() {
 
               <div>
                 <h3 className="text-lg font-semibold text-black dark:text-white mb-4">
-                  Resources
+                  {dict.footer.links.resources.title}
                 </h3>
                 <ul className="space-y-3">
-                  {footerLinks.resources.map((link, index) => (
+                  {dict.footer.links.resources.items.map((linkName: string, index: number) => (
                     <li key={index}>
                       <a
-                        href={link.href}
+                        href="#"
                         className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-300"
                       >
-                        {link.name}
+                        {linkName}
                       </a>
                     </li>
                   ))}
@@ -200,16 +167,16 @@ export function FooterSection() {
 
               <div>
                 <h3 className="text-lg font-semibold text-black dark:text-white mb-4">
-                  Legal
+                  {dict.footer.links.legal.title}
                 </h3>
                 <ul className="space-y-3">
-                  {footerLinks.legal.map((link, index) => (
+                  {dict.footer.links.legal.items.map((linkName: string, index: number) => (
                     <li key={index}>
                       <a
-                        href={link.href}
+                        href="#"
                         className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-300"
                       >
-                        {link.name}
+                        {linkName}
                       </a>
                     </li>
                   ))}
@@ -219,7 +186,6 @@ export function FooterSection() {
           </div>
         </div>
 
-        {/* Bottom footer */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -229,7 +195,7 @@ export function FooterSection() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-gray-600 dark:text-gray-400 text-sm">
-              © 2025 CRM AI. All rights reserved.
+              {dict.footer.copyright}
             </div>
             
             {/* Social links */}
