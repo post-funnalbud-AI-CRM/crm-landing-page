@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { 
-  TrendingUp, 
+  Eye, 
   Clock, 
-  Users, 
-  Shield, 
+  TrendingDown, 
+  Heart, 
   ArrowRight,
   ChevronLeft,
   ChevronRight
@@ -22,12 +22,12 @@ interface BenefitsSlideProps {
 
 const getBenefits = (dict: any) => [
   {
-    icon: TrendingUp,
-    title: dict.benefits.revenue.title,
-    description: dict.benefits.revenue.description,
-    stats: dict.benefits.revenue.stats,
+    icon: Eye,
+    title: dict.benefits.visibility.title,
+    description: dict.benefits.visibility.description,
+    stats: dict.benefits.visibility.stats,
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    gradient: "from-gray-700 to-gray-900"
+    gradient: "from-blue-600 to-blue-800"
   },
   {
     icon: Clock,
@@ -35,23 +35,23 @@ const getBenefits = (dict: any) => [
     description: dict.benefits.time.description,
     stats: dict.benefits.time.stats,
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    gradient: "from-gray-600 to-gray-800"
+    gradient: "from-green-600 to-green-800"
   },
   {
-    icon: Users,
-    title: dict.benefits.productivity.title,
-    description: dict.benefits.productivity.description,
-    stats: dict.benefits.productivity.stats,
+    icon: TrendingDown,
+    title: dict.benefits.churn.title,
+    description: dict.benefits.churn.description,
+    stats: dict.benefits.churn.stats,
     image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&h=400&fit=crop",
-    gradient: "from-gray-500 to-gray-700"
+    gradient: "from-purple-600 to-purple-800"
   },
   {
-    icon: Shield,
-    title: dict.benefits.security.title,
-    description: dict.benefits.security.description,
-    stats: dict.benefits.security.stats,
+    icon: Heart,
+    title: dict.benefits.peace.title,
+    description: dict.benefits.peace.description,
+    stats: dict.benefits.peace.stats,
     image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop",
-    gradient: "from-gray-700 to-gray-900"
+    gradient: "from-pink-600 to-pink-800"
   }
 ];
 
@@ -143,15 +143,6 @@ export function BenefitsSlide({ dict, locale }: BenefitsSlideProps) {
                           </span>
                         </div>
                       </div>
-                      
-                      <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 lg:px-8 lg:py-4 rounded-xl font-medium text-base lg:text-lg hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl"
-                      >
-                        {dict.benefits.learnMore}
-                        <ArrowRight className="w-4 h-4 lg:w-5 lg:h-5" />
-                      </motion.button>
                     </motion.div>
                   </div>
 

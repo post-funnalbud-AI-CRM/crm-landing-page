@@ -28,7 +28,7 @@ const DemoOne = ({ dict, locale }: DemoOneProps) => {
       />
       <QuotesSection dict={dict} locale={locale} />
       <BenefitsSlide dict={dict} locale={locale} />
-      <FeaturesSection dict={dict} locale={locale} />
+      <FeaturesSection dict={dict} />
       <TestimonialsSection dict={dict} locale={locale} />
       <PricingSection dict={dict} />
       <FooterSection dict={dict} />

@@ -28,6 +28,11 @@ function getLocale(request: NextRequest): Locale {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
   
+  // Skip middleware for static assets
+  if (pathname.match(/\.(png|jpg|jpeg|gif|svg|ico|css|js|woff|woff2|ttf|eot)$/)) {
+    return
+  }
+  
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = locales.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
@@ -43,6 +48,10 @@ export function middleware(request: NextRequest) {
 }
  
 export const config = {
-  // Matcher ignoring `/_next/` and `/api/`
-  matcher: ['/((?!_next|api|favicon.ico).*)']
+  matcher: [
+    // Skip all internal paths (_next)
+    '/((?!_next|api|favicon.ico).*)',
+    // Optional: Match all pathnames except for the ones starting with a dot (e.g. files)
+    '/((?!.*\\..*|api|_next).*)'
+  ]
 }

@@ -9,10 +9,10 @@ import {
   Linkedin, 
   Github, 
   Youtube,
-  ArrowRight,
-  Sparkles
+  ArrowRight
 } from "lucide-react";
 import { useState } from "react";
+import Image from "next/image";
 
 const socialLinks = [
   { name: "Twitter", icon: Twitter, href: "#" },
@@ -45,7 +45,14 @@ export function FooterSection({ dict }: { dict: any }) {
             >
               <div className="mb-8">
                 <div className="flex items-center gap-2 mb-4">
-                  <Sparkles className="w-8 h-8 text-gray-700 dark:text-gray-300" />
+                  {/* Trellin Logo */}
+                  <img 
+                    src="/logo.png" 
+                    alt="Trellin Logo" 
+                    className="w-12 h-12 rounded-full mr-2"
+                    onError={(e) => console.error('Logo failed to load:', e)}
+                    onLoad={() => console.log('Logo loaded successfully')}
+                  />
                   <span className="text-2xl font-bold text-black dark:text-white">
                     {dict.nav.brand}
                   </span>
@@ -71,7 +78,7 @@ export function FooterSection({ dict }: { dict: any }) {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder={dict.footer.emailPlaceholder}
-                      className="w-full pl-10 pr-4 py-3 bg-white dark:bg-black border border-gray-300 dark:border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-300"
+                      className="w-full pl-10 pr-4 py-3 bg-white dark:bg-black border border-gray-300 dark:border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 transition-colors duration-300"
                       required
                     />
                   </div>
@@ -79,7 +86,7 @@ export function FooterSection({ dict }: { dict: any }) {
                     type="submit"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-xl font-medium hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-300 flex items-center gap-2"
+                    className="bg-blue-600 dark:bg-blue-500 text-white hover:bg-blue-700 dark:hover:bg-blue-600 px-6 py-3 rounded-xl font-medium transition-all duration-300 flex items-center gap-2"
                   >
                     {dict.footer.subscribe}
                     <ArrowRight className="w-4 h-4" />

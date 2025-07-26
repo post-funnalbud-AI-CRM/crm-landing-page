@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CRM AI - AI-Powered Customer Relationship Management",
-  description: "Transform your customer relationships with intelligent automation, predictive analytics, and seamless workflow management.",
+  title: "Trellin - AI-Powered Customer Success Platform",
+  description: "Your AI-powered customer success analyst. Know who's at risk, how it's going, and what to do—before it's too late.",
 };
 
 const locales = ['en', 'sv']

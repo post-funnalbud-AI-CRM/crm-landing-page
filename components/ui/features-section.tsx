@@ -3,70 +3,70 @@
 import { motion } from "framer-motion";
 import { 
   Brain, 
-  Users, 
-  TrendingUp, 
-  Shield, 
+  Calendar, 
+  AlertTriangle, 
+  Mail, 
   Zap, 
   MessageSquare,
-  BarChart3,
-  Clock,
+  Users,
+  TrendingUp,
   Globe
 } from "lucide-react";
 
 const features = [
   {
     icon: Brain,
-    title: "AI-Powered Insights",
-    description: "Advanced machine learning algorithms analyze customer behavior patterns to provide actionable insights and predictions.",
-    gradient: "from-gray-600 to-gray-800"
+    title: "AI-Powered Customer Analysis",
+    description: "Advanced AI analyzes all customer communications to identify sentiment, risks, and opportunities automatically.",
+    gradient: "from-blue-600 to-blue-800"
   },
   {
-    icon: Users,
-    title: "Customer 360° View",
-    description: "Complete customer profiles with interaction history, preferences, and predictive analytics in one unified dashboard.",
-    gradient: "from-gray-500 to-gray-700"
+    icon: Calendar,
+    title: "Daily Customer Updates",
+    description: "Get daily summaries of how each customer is doing, what needs attention, and who's at risk of churning.",
+    gradient: "from-green-600 to-green-800"
   },
   {
-    icon: TrendingUp,
-    title: "Sales Forecasting",
-    description: "Accurate revenue predictions and sales pipeline analysis powered by historical data and market trends.",
-    gradient: "from-gray-700 to-gray-900"
+    icon: AlertTriangle,
+    title: "Proactive Risk Detection",
+    description: "Spot unhappy customers and potential churn risks before they become problems with intelligent alerts.",
+    gradient: "from-red-600 to-red-800"
   },
   {
-    icon: Shield,
-    title: "Enterprise Security",
-    description: "Bank-grade encryption, SOC 2 compliance, and advanced security protocols to protect your sensitive data.",
-    gradient: "from-gray-600 to-gray-800"
+    icon: Mail,
+    title: "Email & Call Monitoring",
+    description: "Automatically read and analyze all customer emails and calls to understand sentiment and satisfaction.",
+    gradient: "from-purple-600 to-purple-800"
   },
   {
     icon: Zap,
-    title: "Workflow Automation",
-    description: "Automate repetitive tasks, email sequences, and follow-ups to increase productivity by up to 300%.",
-    gradient: "from-gray-500 to-gray-700"
+    title: "Project Management Integration",
+    description: "Sync with your existing project management tools to get complete visibility into customer relationships.",
+    gradient: "from-yellow-600 to-yellow-800"
   },
   {
     icon: MessageSquare,
-    title: "Omnichannel Communication",
-    description: "Centralized communication hub supporting email, SMS, social media, and live chat in one platform.",
-    gradient: "from-gray-700 to-gray-900"
+    title: "Smart Notifications",
+    description: "Get instant alerts when customers need attention, are unhappy, or present upsell opportunities.",
+    gradient: "from-pink-600 to-pink-800"
   },
   {
-    icon: BarChart3,
-    title: "Real-time Analytics",
-    description: "Live dashboards with customizable KPIs, conversion tracking, and performance metrics that update instantly.",
-    gradient: "from-gray-600 to-gray-800"
+    icon: Users,
+    title: "Team Performance Insights",
+    description: "Monitor how your service employees are performing and identify coaching opportunities or praise-worthy actions.",
+    gradient: "from-indigo-600 to-indigo-800"
   },
   {
-    icon: Clock,
-    title: "Smart Scheduling",
-    description: "AI-optimized meeting scheduling, task prioritization, and resource allocation for maximum efficiency.",
-    gradient: "from-gray-500 to-gray-700"
+    icon: TrendingUp,
+    title: "Customer Communication Patterns",
+    description: "Track changes in customer communication patterns to identify who needs more attention or follow-up.",
+    gradient: "from-teal-600 to-teal-800"
   },
   {
     icon: Globe,
-    title: "Global Scalability",
-    description: "Multi-language support, currency conversion, and region-specific compliance for worldwide operations.",
-    gradient: "from-gray-700 to-gray-900"
+    title: "Upsell Opportunity Detection",
+    description: "Identify customers who might be ready for additional services or upgrades based on their interactions.",
+    gradient: "from-orange-600 to-orange-800"
   }
 ];
 
@@ -85,7 +85,7 @@ const itemVariants = {
   visible: { opacity: 1, y: 0 }
 };
 
-export function FeaturesSection() {
+export function FeaturesSection({ dict }: { dict: any }) {
   return (
     <section id="features" className="py-20 bg-white dark:bg-black transition-colors duration-300 relative overflow-hidden">
       {/* Background pattern */}
@@ -105,10 +105,10 @@ export function FeaturesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-5xl font-bold text-black dark:text-white mb-6">
-            Powerful Features for Modern Business
+            {dict.features.title}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Everything you need to transform customer relationships, boost sales, and scale your business with intelligent automation.
+            {dict.features.description}
           </p>
         </motion.div>
 
@@ -155,13 +155,6 @@ export function FeaturesSection() {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-black dark:bg-white text-white dark:text-black px-8 py-4 rounded-xl font-medium text-lg hover:bg-gray-800 dark:hover:bg-gray-200 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            Explore All Features
-          </motion.button>
         </motion.div>
       </div>
     </section>

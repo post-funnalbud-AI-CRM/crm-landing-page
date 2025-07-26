@@ -1,6 +1,6 @@
 {
   "nav": {
-    "brand": "CRM AI",
+    "brand": "Trellin",
     "features": "Features",
     "pricing": "Pricing",
     "about": "About",
@@ -9,160 +9,160 @@
     "signIn": "Sign In"
   },
   "hero": {
-    "title": "AI-Powered CRM Revolution",
+    "title": "Your AI-Powered Customer Success Analyst",
     "subtitle": "Early Access Available",
-    "description": "Transform your customer relationships with intelligent automation, predictive analytics, and seamless workflow management.",
+    "description": "Know who's at risk, how it's going, and what to do—before it's too late. Trellin is an AI-Powered Customer Success Platform for retainer-based businesses.",
     "emailPlaceholder": "enter@email.com",
     "getStarted": "Get Started",
     "watchDemo": "Watch Demo",
     "learnMore": "Learn More"
   },
   "quotes": {
-    "title": "Trusted by Industry Leaders",
+    "title": "Trusted by Agency Leaders",
     "quotes": [
       {
-        "text": "AI-powered CRM has revolutionized how we understand our customers. The insights are incredible.",
+        "text": "Trellin finally gives me the visibility I need into customer satisfaction. I know exactly who needs attention and why.",
         "author": "Sarah Chen",
-        "title": "CEO, TechFlow Inc.",
-        "company": "Fortune 500"
+        "title": "CEO, TechFlow Agency",
+        "company": "Digital Marketing"
       },
       {
-        "text": "The automation saves us 20+ hours per week. Our team can focus on what really matters.",
+        "text": "The AI analysis saves me hours every week. I get daily updates on customer sentiment without having to chase my team.",
         "author": "Marcus Rodriguez",
-        "title": "Sales Director",
-        "company": "GrowthLab"
+        "title": "Founder",
+        "company": "GrowthLab Consulting"
       },
       {
-        "text": "Real-time analytics helped us increase conversion rates by 150% in just 3 months.",
+        "text": "Customer churn dropped by 40% in just 3 months. Trellin spots issues before they become problems.",
         "author": "Emily Watson",
-        "title": "Marketing Lead",
-        "company": "InnovateCorp"
+        "title": "Managing Director",
+        "company": "InnovateCorp Services"
       }
     ]
   },
   "benefits": {
-    "title": "Transform Your Business Today",
-    "description": "See the measurable impact CRM AI can have on your business performance and growth.",
-    "revenue": {
-      "title": "Increase Revenue by 40%",
-      "description": "Our AI algorithms identify high-value prospects and optimize your sales funnel for maximum conversion rates.",
-      "stats": "40% Average Revenue Increase"
+    "title": "Transform Your Customer Success Today",
+    "description": "See the measurable impact Trellin can have on your customer satisfaction and business growth.",
+    "visibility": {
+      "title": "Complete Customer Visibility",
+      "description": "Get daily insights into how each customer is feeling, what they need, and who requires immediate attention.",
+      "stats": "100% Customer Visibility"
     },
     "time": {
       "title": "Save 25+ Hours Per Week",
-      "description": "Automate repetitive tasks, streamline workflows, and let your team focus on building relationships.",
+      "description": "Automatically analyze emails, calls, and project updates to identify risks and opportunities without manual work.",
       "stats": "25+ Hours Saved Weekly"
     },
-    "productivity": {
-      "title": "Improve Team Productivity",
-      "description": "Centralized communication, task management, and performance tracking boost team efficiency.",
-      "stats": "300% Productivity Boost"
+    "churn": {
+      "title": "Reduce Customer Churn",
+      "description": "Spot unhappy customers before they leave and take proactive action to retain them.",
+      "stats": "40% Churn Reduction"
     },
-    "security": {
-      "title": "Enterprise-Grade Security",
-      "description": "Bank-level encryption, SOC 2 compliance, and advanced security protocols protect your data.",
-      "stats": "99.9% Uptime Guarantee"
+    "peace": {
+      "title": "Peace of Mind",
+      "description": "Finally stop stressing about whether your important customers are happy. Get clear, actionable insights.",
+      "stats": "Zero Customer Anxiety"
     },
     "learnMore": "Learn More"
   },
   "features": {
-    "title": "Powerful Features for Modern Business",
-    "description": "Everything you need to transform customer relationships, boost sales, and scale your business with intelligent automation.",
+    "title": "Powerful Features for Customer Success",
+    "description": "Everything you need to monitor customer satisfaction, reduce churn, and scale your retainer-based business with AI intelligence.",
     "cta": "Explore All Features",
     "features": [
       {
-        "title": "AI-Powered Insights",
-        "description": "Advanced machine learning algorithms analyze customer behavior patterns to provide actionable insights and predictions."
+        "title": "AI-Powered Customer Analysis",
+        "description": "Advanced AI analyzes all customer communications to identify sentiment, risks, and opportunities automatically."
       },
       {
-        "title": "Customer 360° View",
-        "description": "Complete customer profiles with interaction history, preferences, and predictive analytics in one unified dashboard."
+        "title": "Daily Customer Updates",
+        "description": "Get daily summaries of how each customer is doing, what needs attention, and who's at risk of churning."
       },
       {
-        "title": "Sales Forecasting",
-        "description": "Accurate revenue predictions and sales pipeline analysis powered by historical data and market trends."
+        "title": "Proactive Risk Detection",
+        "description": "Spot unhappy customers and potential churn risks before they become problems with intelligent alerts."
       },
       {
-        "title": "Enterprise Security",
-        "description": "Bank-grade encryption, SOC 2 compliance, and advanced security protocols to protect your sensitive data."
+        "title": "Email & Call Monitoring",
+        "description": "Automatically read and analyze all customer emails and calls to understand sentiment and satisfaction."
       },
       {
-        "title": "Workflow Automation",
-        "description": "Automate repetitive tasks, email sequences, and follow-ups to increase productivity by up to 300%."
+        "title": "Project Management Integration",
+        "description": "Sync with your existing project management tools to get complete visibility into customer relationships."
       },
       {
-        "title": "Omnichannel Communication",
-        "description": "Centralized communication hub supporting email, SMS, social media, and live chat in one platform."
+        "title": "Smart Notifications",
+        "description": "Get instant alerts when customers need attention, are unhappy, or present upsell opportunities."
       },
       {
-        "title": "Real-time Analytics",
-        "description": "Live dashboards with customizable KPIs, conversion tracking, and performance metrics that update instantly."
+        "title": "Team Performance Insights",
+        "description": "Monitor how your service employees are performing and identify coaching opportunities or praise-worthy actions."
       },
       {
-        "title": "Smart Scheduling",
-        "description": "AI-optimized meeting scheduling, task prioritization, and resource allocation for maximum efficiency."
+        "title": "Customer Communication Patterns",
+        "description": "Track changes in customer communication patterns to identify who needs more attention or follow-up."
       },
       {
-        "title": "Global Scalability",
-        "description": "Multi-language support, currency conversion, and region-specific compliance for worldwide operations."
+        "title": "Upsell Opportunity Detection",
+        "description": "Identify customers who might be ready for additional services or upgrades based on their interactions."
       }
     ]
   },
   "testimonials": {
-    "title": "Loved by Thousands of Companies",
-    "description": "Join over 10,000+ businesses that trust CRM AI to manage their customer relationships and drive growth.",
+    "title": "Loved by Agency Leaders",
+    "description": "Join agency owners and CEOs who trust Trellin to monitor their customer success and reduce stress.",
     "testimonials": [
       {
         "name": "Alex Thompson",
-        "title": "VP of Sales",
-        "company": "TechCorp",
-        "text": "CRM AI transformed our sales process completely. We've seen a 40% increase in conversions and our team is more productive than ever."
+        "title": "CEO",
+        "company": "TechCorp Agency",
+        "text": "Trellin transformed how I monitor customer satisfaction. I finally have the visibility I need without micromanaging my team."
       },
       {
         "name": "Sarah Kim",
-        "title": "Marketing Director", 
-        "company": "GrowthLab",
-        "text": "The AI insights are incredible. We now predict customer behavior with 90% accuracy and personalize every interaction perfectly."
+        "title": "Founder", 
+        "company": "GrowthLab Consulting",
+        "text": "The AI insights are incredible. I now know exactly which customers need attention and why, before it's too late."
       },
       {
         "name": "Marcus Rodriguez",
-        "title": "CEO",
-        "company": "InnovatePlus",
-        "text": "Implementation was seamless and ROI was immediate. Our customer satisfaction scores improved by 35% in just two months."
+        "title": "Managing Director",
+        "company": "InnovatePlus Services",
+        "text": "Customer churn dropped by 40% in just 3 months. Trellin spots issues before they become problems."
       },
       {
         "name": "Emma Chen",
-        "title": "Operations Manager",
-        "company": "ScaleUp Inc",
-        "text": "The automation features save us 25+ hours per week. We can focus on strategy instead of manual data entry and follow-ups."
+        "title": "CEO",
+        "company": "ScaleUp Agency",
+        "text": "The daily updates save me hours every week. I can focus on growing the business instead of chasing customer feedback."
       },
       {
         "name": "David Wilson",
-        "title": "Sales Manager",
+        "title": "Agency Owner",
         "company": "ProSolutions",
-        "text": "Customer support is outstanding and the platform is incredibly intuitive. Our entire team was up and running within a week."
+        "text": "Finally, I don't stress about whether my important customers are happy. Trellin gives me peace of mind."
       },
       {
         "name": "Lisa Park",
-        "title": "Revenue Operations",
-        "company": "DataDriven Co",
-        "text": "The analytics dashboard gives us insights we never had before. We can make data-driven decisions in real-time now."
+        "title": "Operations Director",
+        "company": "DataDriven Agency",
+        "text": "The team performance insights help me coach my employees better and recognize outstanding work."
       }
     ],
     "stats": {
-      "users": "10,000+",
-      "usersLabel": "Active Users",
+      "users": "500+",
+      "usersLabel": "Agency Leaders",
       "satisfaction": "98%",
       "satisfactionLabel": "Customer Satisfaction",
-      "roi": "150%",
-      "roiLabel": "Average ROI",
+      "churn": "40%",
+      "churnLabel": "Churn Reduction",
       "support": "24/7",
       "supportLabel": "Support Available"
     }
   },
   "pricing": {
     "title": "Simple, Transparent Pricing",
-    "description": "Choose the perfect plan for your business. All plans include our core CRM features with no hidden fees.",
+    "description": "Choose the perfect plan for your agency. All plans include our core customer success features with no hidden fees.",
     "monthly": "Monthly",
     "annually": "Annual",
     "save": "Save 20%",
@@ -180,64 +180,64 @@
     "plans": [
       {
         "name": "Starter",
-        "price": "$29",
+        "price": "$99",
         "period": "per month",
-        "description": "Perfect for small teams getting started with CRM",
+        "description": "Perfect for small agencies getting started with customer success monitoring",
         "features": [
-          "Up to 1,000 contacts",
-          "Basic email automation",
-          "Standard reporting",
-          "24/7 email support",
+          "Up to 50 customers",
+          "Email analysis",
+          "Daily customer updates",
+          "Basic risk detection",
+          "Email notifications",
           "Mobile app access",
-          "Basic integrations (5)",
           "1 user account"
         ]
       },
       {
         "name": "Professional",
-        "price": "$79", 
+        "price": "$199", 
         "period": "per month",
-        "description": "Most popular choice for growing businesses",
+        "description": "Most popular choice for growing agencies",
         "features": [
-          "Up to 10,000 contacts",
-          "Advanced AI automation",
-          "Real-time analytics",
-          "Priority phone support",
-          "Custom workflows",
-          "Advanced integrations (25)",
+          "Up to 200 customers",
+          "Email & call analysis",
+          "Advanced AI insights",
+          "Priority notifications",
+          "Project management sync",
+          "Team performance tracking",
           "Up to 5 user accounts",
-          "Lead scoring",
-          "A/B testing"
+          "Upsell opportunity detection",
+          "Custom alerts"
         ]
       },
       {
         "name": "Enterprise",
-        "price": "$199",
+        "price": "$399",
         "period": "per month",
-        "description": "Advanced features for large organizations", 
+        "description": "Advanced features for large agencies", 
         "features": [
-          "Unlimited contacts",
+          "Unlimited customers",
           "Full AI suite",
-          "Custom reporting",
+          "Custom integrations",
           "Dedicated success manager",
           "White-label options",
-          "Unlimited integrations",
+          "Advanced analytics",
           "Unlimited users",
-          "Advanced security (SSO)",
           "API access",
-          "Custom training"
+          "Custom training",
+          "Priority support"
         ]
       }
     ]
   },
   "footer": {
-    "description": "Transform your customer relationships with intelligent automation, predictive analytics, and seamless workflow management.",
+    "description": "Your AI-powered customer success analyst. Know who's at risk, how it's going, and what to do—before it's too late.",
     "stayUpdated": "Stay Updated",
     "newsletterDescription": "Get the latest updates, tips, and insights delivered to your inbox.",
     "subscribe": "Subscribe",
     "emailPlaceholder": "Enter your email",
     "contact": {
-      "email": "hello@crmai.com",
+      "email": "hello@trellin.com",
       "phone": "+1 (555) 123-4567",
       "address": "Sweden, Stockholm"
     },
@@ -283,7 +283,7 @@
         ]
       }
     },
-    "copyright": "© 2025 CRM AI. All rights reserved."
+    "copyright": "© 2025 Trellin. All rights reserved."
   },
   "common": {
     "loading": "Loading...",

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "brand": "CRM AI",
+    "brand": "Trellin",
     "features": "Funktioner",
     "pricing": "Prissättning",
     "about": "Om oss",
@@ -9,160 +9,160 @@
     "signIn": "Logga in"
   },
   "hero": {
-    "title": "AI-driven CRM-revolution",
+    "title": "Din AI-drivna kundframgångsanalytiker",
     "subtitle": "Tidig åtkomst tillgänglig",
-    "description": "Förvandla dina kundrelationer med intelligent automatisering, prediktiv analys och sömlös arbetsflödeshantering.",
+    "description": "Vet vem som är i riskzonen, hur det går och vad som ska göras—innan det är för sent. Trellin är en AI-driven kundframgångsplattform för retainerbaserade företag.",
     "emailPlaceholder": "ange@email.com",
     "getStarted": "Kom igång",
     "watchDemo": "Se demo",
     "learnMore": "Läs mer"
   },
   "quotes": {
-    "title": "Betrodd av branschledare",
+    "title": "Betrodd av byråledare",
     "quotes": [
       {
-        "text": "AI-driven CRM har revolutionerat hur vi förstår våra kunder. Insikterna är otroliga.",
+        "text": "Trellin ger mig äntligen den synlighet jag behöver för kundnöjdhet. Jag vet exakt vem som behöver uppmärksamhet och varför.",
         "author": "Sarah Chen",
-        "title": "VD, TechFlow Inc.",
-        "company": "Fortune 500"
+        "title": "VD, TechFlow Agency",
+        "company": "Digital Marknadsföring"
       },
       {
-        "text": "Automatiseringen sparar oss 20+ timmar per vecka. Vårt team kan fokusera på det som verkligen spelar roll.",
+        "text": "AI-analysen sparar mig timmar varje vecka. Jag får dagliga uppdateringar om kundkänslor utan att behöva jaga mitt team.",
         "author": "Marcus Rodriguez",
-        "title": "Försäljningschef",
-        "company": "GrowthLab"
+        "title": "Grundare",
+        "company": "GrowthLab Consulting"
       },
       {
-        "text": "Realtidsanalys hjälpte oss att öka konverteringsgraden med 150% på bara 3 månader.",
+        "text": "Kundavhopp minskade med 40% på bara 3 månader. Trellin upptäcker problem innan de blir problem.",
         "author": "Emily Watson",
-        "title": "Marknadsföringschef",
-        "company": "InnovateCorp"
+        "title": "Verkställande direktör",
+        "company": "InnovateCorp Services"
       }
     ]
   },
   "benefits": {
-    "title": "Förvandla ditt företag idag",
-    "description": "Se den mätbara påverkan som CRM AI kan ha på ditt företags prestanda och tillväxt.",
-    "revenue": {
-      "title": "Öka intäkterna med 40%",
-      "description": "Våra AI-algoritmer identifierar högt värderade prospects och optimerar din försäljningstratt för maximala konverteringsgrader.",
-      "stats": "40% genomsnittlig intäktsökning"
+    "title": "Förvandla din kundframgång idag",
+    "description": "Se den mätbara påverkan som Trellin kan ha på din kundnöjdhet och företagstillväxt.",
+    "visibility": {
+      "title": "Komplett kundsynlighet",
+      "description": "Få dagliga insikter om hur varje kund känner sig, vad de behöver och vem som kräver omedelbar uppmärksamhet.",
+      "stats": "100% kundsynlighet"
     },
     "time": {
       "title": "Spara 25+ timmar per vecka",
-      "description": "Automatisera repetitiva uppgifter, effektivisera arbetsflöden och låt ditt team fokusera på att bygga relationer.",
+      "description": "Analysera automatiskt e-post, samtal och projektuppdateringar för att identifiera risker och möjligheter utan manuellt arbete.",
       "stats": "25+ timmar sparade veckovis"
     },
-    "productivity": {
-      "title": "Förbättra teamproduktivitet",
-      "description": "Centraliserad kommunikation, uppgiftshantering och prestationsspårning ökar teameffektiviteten.",
-      "stats": "300% produktivitetsökning"
+    "churn": {
+      "title": "Minska kundavhopp",
+      "description": "Upptäck missnöjda kunder innan de lämnar och vidta proaktiva åtgärder för att behålla dem.",
+      "stats": "40% minskning av kundavhopp"
     },
-    "security": {
-      "title": "Säkerhet i företagsklass",
-      "description": "Kryptering på banknivå, SOC 2-efterlevnad och avancerade säkerhetsprotokoll skyddar dina data.",
-      "stats": "99,9% drifttidsgaranti"
+    "peace": {
+      "title": "Lugn och ro",
+      "description": "Sluta äntligen stressa över om dina viktiga kunder är nöjda. Få tydliga, handlingsbara insikter.",
+      "stats": "Noll kundångest"
     },
     "learnMore": "Läs mer"
   },
   "features": {
-    "title": "Kraftfulla funktioner för moderna företag",
-    "description": "Allt du behöver för att förvandla kundrelationer, öka försäljningen och skala ditt företag med intelligent automatisering.",
+    "title": "Kraftfulla funktioner för kundframgång",
+    "description": "Allt du behöver för att övervaka kundnöjdhet, minska kundavhopp och skala ditt retainerbaserade företag med AI-intelligens.",
     "cta": "Utforska alla funktioner",
     "features": [
       {
-        "title": "AI-drivna insikter",
-        "description": "Avancerade maskininlärningsalgoritmer analyserar kundbeteendemönster för att ge handlingsbara insikter och förutsägelser."
+        "title": "AI-driven kundanalys",
+        "description": "Avancerad AI analyserar all kundkommunikation för att automatiskt identifiera känslor, risker och möjligheter."
       },
       {
-        "title": "Kund 360° vy",
-        "description": "Kompletta kundprofiler med interaktionshistorik, preferenser och prediktiv analys i en enhetlig instrumentpanel."
+        "title": "Dagliga kunduppdateringar",
+        "description": "Få dagliga sammanfattningar av hur varje kund mår, vad som behöver uppmärksamhet och vem som riskerar att hoppa av."
       },
       {
-        "title": "Försäljningsprognoser",
-        "description": "Noggranna intäktsförutsägelser och försäljningspipelineanalys driven av historiska data och marknadstrender."
+        "title": "Proaktiv riskdetektering",
+        "description": "Upptäck missnöjda kunder och potentiella avhoppsrisker innan de blir problem med intelligenta varningar."
       },
       {
-        "title": "Företagssäkerhet",
-        "description": "Kryptering på banknivå, SOC 2-efterlevnad och avancerade säkerhetsprotokoll för att skydda dina känsliga data."
+        "title": "E-post- och samtalsovervakning",
+        "description": "Läs och analysera automatiskt alla kunde-post och samtal för att förstå känslor och nöjdhet."
       },
       {
-        "title": "Arbetsflödesautomatisering",
-        "description": "Automatisera repetitiva uppgifter, e-postsekvenser och uppföljningar för att öka produktiviteten med upp till 300%."
+        "title": "Projekthanteringsintegration",
+        "description": "Synkronisera med dina befintliga projekthanteringsverktyg för att få komplett synlighet i kundrelationer."
       },
       {
-        "title": "Omnikanalkommunikation",
-        "description": "Centraliserad kommunikationshubb som stöder e-post, SMS, sociala medier och livechatt på en plattform."
+        "title": "Smarta notifikationer",
+        "description": "Få omedelbara varningar när kunder behöver uppmärksamhet, är missnöjda eller presenterar uppsäljmöjligheter."
       },
       {
-        "title": "Realtidsanalys",
-        "description": "Live-instrumentpaneler med anpassningsbara KPI:er, konverteringsspårning och prestationsmätvärden som uppdateras omedelbart."
+        "title": "Teamprestationsinsikter",
+        "description": "Övervaka hur dina serviceanställda presterar och identifiera coachingsmöjligheter eller berömvärd handling."
       },
       {
-        "title": "Smart schemaläggning",
-        "description": "AI-optimerad mötesschemaläggning, uppgiftsprioritering och resursallokering för maximal effektivitet."
+        "title": "Kundkommunikationsmönster",
+        "description": "Spåra förändringar i kundkommunikationsmönster för att identifiera vem som behöver mer uppmärksamhet eller uppföljning."
       },
       {
-        "title": "Global skalbarhet",
-        "description": "Flerspråksstöd, valutakonvertering och regionspecifik efterlevnad för världsomspännande verksamhet."
+        "title": "Uppsäljmöjlighetsdetektering",
+        "description": "Identifiera kunder som kan vara redo för ytterligare tjänster eller uppgraderingar baserat på deras interaktioner."
       }
     ]
   },
   "testimonials": {
-    "title": "Älskad av tusentals företag",
-    "description": "Gå med över 10 000+ företag som litar på CRM AI för att hantera sina kundrelationer och driva tillväxt.",
+    "title": "Älskad av byråledare",
+    "description": "Gå med byråägare och VD:ar som litar på Trellin för att övervaka sin kundframgång och minska stress.",
     "testimonials": [
       {
         "name": "Alex Thompson",
-        "title": "VP Försäljning",
-        "company": "TechCorp",
-        "text": "CRM AI förvandlade vår försäljningsprocess helt. Vi har sett en 40% ökning av konverteringar och vårt team är mer produktivt än någonsin."
+        "title": "VD",
+        "company": "TechCorp Agency",
+        "text": "Trellin förvandlade hur jag övervakar kundnöjdhet. Jag har äntligen den synlighet jag behöver utan att mikromanagera mitt team."
       },
       {
         "name": "Sarah Kim",
-        "title": "Marknadsföringschef",
-        "company": "GrowthLab", 
-        "text": "AI-insikterna är otroliga. Vi förutsäger nu kundbeteende med 90% noggrannhet och personaliserar varje interaktion perfekt."
+        "title": "Grundare",
+        "company": "GrowthLab Consulting", 
+        "text": "AI-insikterna är otroliga. Jag vet nu exakt vilka kunder som behöver uppmärksamhet och varför, innan det är för sent."
       },
       {
         "name": "Marcus Rodriguez",
-        "title": "VD",
-        "company": "InnovatePlus",
-        "text": "Implementeringen var sömlös och ROI var omedelbar. Våra kundnöjdhetspoäng förbättrades med 35% på bara två månader."
+        "title": "Verkställande direktör",
+        "company": "InnovatePlus Services",
+        "text": "Kundavhopp minskade med 40% på bara 3 månader. Trellin upptäcker problem innan de blir problem."
       },
       {
         "name": "Emma Chen",
-        "title": "Driftschef",
-        "company": "ScaleUp Inc",
-        "text": "Automatiseringsfunktionerna sparar oss 25+ timmar per vecka. Vi kan fokusera på strategi istället för manuell datainmatning och uppföljning."
+        "title": "VD",
+        "company": "ScaleUp Agency",
+        "text": "De dagliga uppdateringarna sparar mig timmar varje vecka. Jag kan fokusera på att växa företaget istället för att jaga kundfeedback."
       },
       {
         "name": "David Wilson",
-        "title": "Försäljningschef",
+        "title": "Byråägare",
         "company": "ProSolutions",
-        "text": "Kundsupport är enastående och plattformen är otroligt intuitiv. Hela vårt team var igång inom en vecka."
+        "text": "Äntligen stressar jag inte över om mina viktiga kunder är nöjda. Trellin ger mig lugn och ro."
       },
       {
         "name": "Lisa Park",
-        "title": "Intäktsoperationer",
-        "company": "DataDriven Co",
-        "text": "Analysinstrumentpanelen ger oss insikter vi aldrig hade tidigare. Vi kan fatta datadrivna beslut i realtid nu."
+        "title": "Driftschef",
+        "company": "DataDriven Agency",
+        "text": "Teamprestationsinsikterna hjälper mig att coacha mina anställda bättre och erkänna utmärkt arbete."
       }
     ],
     "stats": {
-      "users": "10 000+",
-      "usersLabel": "Aktiva användare",
+      "users": "500+",
+      "usersLabel": "Byråledare",
       "satisfaction": "98%",
       "satisfactionLabel": "Kundnöjdhet",
-      "roi": "150%",
-      "roiLabel": "Genomsnittlig ROI",
+      "churn": "40%",
+      "churnLabel": "Minskning av kundavhopp",
       "support": "24/7",
       "supportLabel": "Support tillgänglig"
     }
   },
   "pricing": {
     "title": "Enkel, transparent prissättning",
-    "description": "Välj den perfekta planen för ditt företag. Alla planer inkluderar våra grundläggande CRM-funktioner utan dolda avgifter.",
+    "description": "Välj den perfekta planen för din byrå. Alla planer inkluderar våra grundläggande kundframgångsfunktioner utan dolda avgifter.",
     "monthly": "Månadsvis",
     "annually": "Årligen",
     "save": "Spara 20%",
@@ -180,64 +180,64 @@
     "plans": [
       {
         "name": "Nybörjare",
-        "price": "$29",
+        "price": "$99",
         "period": "per månad",
-        "description": "Perfekt för små team som kommer igång med CRM",
+        "description": "Perfekt för små byråer som kommer igång med kundframgångsovervakning",
         "features": [
-          "Upp till 1 000 kontakter",
-          "Grundläggande e-postautomatisering",
-          "Standardrapportering",
-          "24/7 e-postsupport",
+          "Upp till 50 kunder",
+          "E-postanalys",
+          "Dagliga kunduppdateringar",
+          "Grundläggande riskdetektering",
+          "E-postnotifikationer",
           "Mobilappsåtkomst",
-          "Grundläggande integrationer (5)",
           "1 användarkonto"
         ]
       },
       {
         "name": "Professionell",
-        "price": "$79",
+        "price": "$199",
         "period": "per månad",
-        "description": "Mest populära valet för växande företag",
+        "description": "Mest populära valet för växande byråer",
         "features": [
-          "Upp till 10 000 kontakter",
-          "Avancerad AI-automatisering",
-          "Realtidsanalys",
-          "Prioriterat telefonsupport",
-          "Anpassade arbetsflöden",
-          "Avancerade integrationer (25)",
+          "Upp till 200 kunder",
+          "E-post- och samtalsanalys",
+          "Avancerade AI-insikter",
+          "Prioriterade notifikationer",
+          "Projekthanteringssynkronisering",
+          "Teamprestationsspårning",
           "Upp till 5 användarkonton",
-          "Lead-poängsättning",
-          "A/B-testning"
+          "Uppsäljmöjlighetsdetektering",
+          "Anpassade varningar"
         ]
       },
       {
         "name": "Företag",
-        "price": "$199",
+        "price": "$399",
         "period": "per månad",
-        "description": "Avancerade funktioner för stora organisationer",
+        "description": "Avancerade funktioner för stora byråer",
         "features": [
-          "Obegränsade kontakter",
+          "Obegränsade kunder",
           "Fullständig AI-svit",
-          "Anpassad rapportering",
+          "Anpassade integrationer",
           "Dedikerad framgångsansvarig",
           "White-label-alternativ",
-          "Obegränsade integrationer",
+          "Avancerad analys",
           "Obegränsade användare",
-          "Avancerad säkerhet (SSO)",
           "API-åtkomst",
-          "Anpassad utbildning"
+          "Anpassad utbildning",
+          "Prioriterad support"
         ]
       }
     ]
   },
   "footer": {
-    "description": "Förvandla dina kundrelationer med intelligent automatisering, prediktiv analys och sömlös arbetsflödeshantering.",
+    "description": "Din AI-drivna kundframgångsanalytiker. Vet vem som är i riskzonen, hur det går och vad som ska göras—innan det är för sent.",
     "stayUpdated": "Håll dig uppdaterad",
     "newsletterDescription": "Få de senaste uppdateringarna, tipsen och insikterna levererade till din inkorg.",
     "subscribe": "Prenumerera",
     "emailPlaceholder": "Ange din e-post",
     "contact": {
-      "email": "hello@crmai.com",
+      "email": "hello@trellin.com",
       "phone": "+1 (555) 123-4567",
       "address": "Sverige, Stockholm"
     },
@@ -283,7 +283,7 @@
         ]
       }
     },
-    "copyright": "© 2025 CRM AI. Alla rättigheter förbehållna."
+    "copyright": "© 2025 Trellin. Alla rättigheter förbehållna."
   },
   "common": {
     "loading": "Laddar...",
